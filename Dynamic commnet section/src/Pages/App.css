@@ -1,0 +1,70 @@
+.container {
+  margin: 0 ;
+  padding: 0;
+}
+.form-container, .comment-list {
+  margin:  0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid  black;
+  width: 500px;
+  align-items: center;
+  height: auto;
+  background: rgb(224,237,254);
+  border-radius: 30px
+}
+.comment-list {
+ margin: 20px auto;
+}
+.input-text {
+ text-align: left;
+ width: 200px;
+ margin: 10px;
+ position: relative;
+ border-color: rgb(224,237,254);
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ border-radius: 5px;
+}
+label {
+ font-weight: bold;
+}
+.add-btn {
+  width: 200px;
+  background: blue;
+ color: white;
+ margin: 10px;
+}
+
+table {
+  margin: 20px auto;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+ width: 200px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  max-width: 200px;
+  overflow: hidden;
+}
+
+tr:nth-child(even) {
+  background: rgb(224,237,254);
+}
+.footer-section {
+  text-align: center;
+margin: 0 auto;
+  border: 2px solid black;
+  width: 550px;
+  position: relative;
+  border-radius: 30px;
+}
+.footer-section h3 a {
+  border: none;
+  padding: 5px;
+  background: rgb(25,179,139);
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.postList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.heading {
+    text-align: center;
+    background: orangered;
+    color: white;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+.postDetails {
+    text-align: center;
+    border: 1px solid silver;
+    border-radius: 5px;
+    justify-content: space-around;
+    padding: 20px;
+}
